@@ -3,7 +3,7 @@ terraform {
 }
 
 provider "aws" {
-  version = "~> 1.5"
+  version = ">= 1.2.0"
 }
 
 module "server" {
